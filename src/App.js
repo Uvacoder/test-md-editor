@@ -1,5 +1,6 @@
 import "./App.css";
 import css from "./previewStyle.js";
+import md from "./sampleMd.js";
 import { Sandpack } from "@codesandbox/sandpack-react";
 import "@codesandbox/sandpack-react/dist/index.css";
 
@@ -31,7 +32,7 @@ export default App
 `;
 
 // example.md
-const markdown = `# Hello world`;
+// const markdown = `# Hello world`;
 
 const App = () => <div className="App">
     <Sandpack
@@ -46,7 +47,7 @@ const App = () => <div className="App">
           hidden: true,
         },
         "/example.md": {
-          code: markdown,
+          code: md,
           active: true,
         },
       }}
