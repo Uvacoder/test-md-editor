@@ -145,6 +145,6 @@ Here's a "line block":
 | Line tree
 
 And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.`
+which you wish to be displayed literally, ex.: \`foo\`, etc.`
 
 export default md
